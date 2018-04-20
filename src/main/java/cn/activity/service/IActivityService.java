@@ -14,7 +14,7 @@ public interface IActivityService {
 	 * @param sourceOfCertification 获取来源
 	 * @throws Exception 
 	 */
-	public BaseBean getNormalApptDate(String sourceOfCertification) throws Exception;
+	public BaseBean getNormalApptDate(String sourceOfCertification,String apptDistrict) throws Exception;
 	/**
 	 * 获取指定场次个人配额信息
 	 * @param sourceOfCertification 获取来源

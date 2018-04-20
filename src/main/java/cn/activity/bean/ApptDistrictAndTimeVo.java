@@ -14,7 +14,22 @@ public class ApptDistrictAndTimeVo implements Serializable {
 	private String apptDistrict;	//预约片区
 	private String totalQuota;		//总预约配额
 	private String leftQuota;		//可预约配额
+	private String cch;				//场次号
+	private String cxrq;			//查询日期
 	
+	
+	public String getCch() {
+		return cch;
+	}
+	public void setCch(String cch) {
+		this.cch = cch;
+	}
+	public String getCxrq() {
+		return cxrq;
+	}
+	public void setCxrq(String cxrq) {
+		this.cxrq = cxrq;
+	}
 	public String getApptDate() {
 		return apptDate;
 	}
