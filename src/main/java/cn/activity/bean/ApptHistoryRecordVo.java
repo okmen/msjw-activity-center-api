@@ -15,6 +15,22 @@ public class ApptHistoryRecordVo implements Serializable {
 	private String apptInterval;	//预约时间段
 	private String apptStatus;		//预约状态
 	
+	private String plateNo;
+	private String mobilePhone;
+	
+	
+	public String getPlateNo() {
+		return plateNo;
+	}
+	public void setPlateNo(String plateNo) {
+		this.plateNo = plateNo;
+	}
+	public String getMobilePhone() {
+		return mobilePhone;
+	}
+	public void setMobilePhone(String mobilePhone) {
+		this.mobilePhone = mobilePhone;
+	}
 	public String getApptId() {
 		return apptId;
 	}
